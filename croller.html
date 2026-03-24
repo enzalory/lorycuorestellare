@@ -1,0 +1,102 @@
+<style>
+  .xat-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  .xat-slider {
+    display: flex;
+    width: max-content;
+    animation: scorriXat 60s linear infinite;
+    gap: 25px;
+  }
+
+  .xat-wrapper:hover .xat-slider {
+    animation-play-state: paused;
+  }
+
+  .dj-card {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 12px;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    -webkit-box-reflect: below 2px linear-gradient(transparent, rgba(255,255,255,0.1));
+  }
+
+  .dj-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
+
+  .dj-name {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    color: #FDD017;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,1), -1px -1px 0 rgba(0,0,0,1), 1px -1px 0 rgba(0,0,0,1);
+    pointer-events: none;
+  }
+
+  .dj-card:hover {
+    transform: scale(1.1) translateY(-10px);
+    z-index: 99;
+  }
+
+  @keyframes scorriXat {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .xat-header { text-align: center; margin-bottom: 20px; }
+  .xat-header img { vertical-align: middle; margin: 0 15px; }
+</style>
+
+<div class="xat-header">
+    <img src="https://images.weserv.nl/?url=xatimg.com/image/OA5GsCvMh6UT.gif&n=-1">
+    <img src="https://images.weserv.nl/?url=xatimg.com/image/6K5RcASGPpwW.gif&n=-1">
+</div>
+
+<div class="xat-wrapper">
+    <div class="xat-slider">
+        
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/udIuVjGkEBZm.gif"><div class="dj-name">LA DISCOTECA VIRTUALE</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/T7dqsK3EyHMz.gif"><div class="dj-name">DJ LORY MAIN</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/sREfmFFsu3cq.gif"><div class="dj-name">GABRY SPEAKER</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/H2g4i2unP4dj.gif"><div class="dj-name">DJ TONINA</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/J93zgIDJY1mD.gif"><div class="dj-name">DJ DENNY</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/6LCkmBbnRq6Z.gif"><div class="dj-name">TERRY DJ</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/p96cisI7kEmr.gif"><div class="dj-name">DJ SALVO</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/Glx6RAXZSiSw.gif"><div class="dj-name">SALVATORE DJ</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/oZvuhCNZkrXo.gif"><div class="dj-name">ENZO MASTER DJ</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/lBp538yhby3h.gif"><div class="dj-name">WJ MICHELE</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/hJC2isBR7OEt.gif"><div class="dj-name">GRAZIE DA LORY</div></div>
+
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/udIuVjGkEBZm.gif"><div class="dj-name">LA DISCOTECA VIRTUALE</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/T7dqsK3EyHMz.gif"><div class="dj-name">DJ LORY MAIN</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/sREfmFFsu3cq.gif"><div class="dj-name">GABRY SPEAKER</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/H2g4i2unP4dj.gif"><div class="dj-name">DJ TONINA</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/J93zgIDJY1mD.gif"><div class="dj-name">DJ DENNY</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/6LCkmBbnRq6Z.gif"><div class="dj-name">TERRY DJ</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/p96cisI7kEmr.gif"><div class="dj-name">DJ SALVO</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/Glx6RAXZSiSw.gif"><div class="dj-name">SALVATORE DJ</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/oZvuhCNZkrXo.gif"><div class="dj-name">ENZO MASTER DJ</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/lBp538yhby3h.gif"><div class="dj-name">WJ MICHELE</div></div>
+        <div class="dj-card"><img src="https://images.weserv.nl/?url=xatimg.com/image/hJC2isBR7OEt.gif"><div class="dj-name">GRAZIE DA LORY</div></div>
+
+    </div>
+</div>
